@@ -18,10 +18,9 @@ function Profile(){
   }
   let image = {
     marginLeft: '5%',
-    backgroundImage: 'url("https://www.royalsmushicafe.dk/wp-content/uploads/2016/02/Profile-Placeholder.jpg")',
     height: '100px',
     width: '100px',
-    borderRadius: '55px',
+    borderRadius: '50%',
   }
 
   let name = {
@@ -50,7 +49,7 @@ function Profile(){
 
       </div>
       <div style={profileBottom}>
-        <span style={image}><img width="100" height="100"src="https://www.royalsmushicafe.dk/wp-content/uploads/2016/02/Profile-Placeholder.jpg"></img></span>
+      <img style={image}width="100" height="100"src="https://www.royalsmushicafe.dk/wp-content/uploads/2016/02/Profile-Placeholder.jpg"></img>
         <span style={name}><strong>Kelly A. Corrigan</strong></span>
         <div style={links}>
         <span style={tweetsFollowingFololowers}>TWEETS</span>
